@@ -63,7 +63,7 @@ private:
     rclcpp::Publisher<autoware_auto_control_msgs::msg::AckermannControlCommand>::SharedPtr control_command_publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
 
-    float alpha = 3.0;
+    float alpha = 3.2;
     float beta = 5.0;
     float handle_position_;
     float throttle_position_;
